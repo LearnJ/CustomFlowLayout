@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="layoutStyle">
+            <enum name="average" value="1"></enum>
+            <enum name="fix" value="2"></enum>
+        </attr>
+        <attr name="itemSpace1" format="dimension"/>
+        <attr name="lineSpace1" format="dimension"/>
+
+
+    </declare-styleable>
+
+    <declare-styleable name="CustomFlowLayout">
+        <attr name="layout_type">
+            <enum name="average" value="1"></enum>
+            <enum name="fix" value="2"></enum>
+        </attr>
+        <attr name="itemSpace" format="dimension"/>
+        <attr name="lineSpace" format="dimension"/>
+
+
+    </declare-styleable>
+
+
+</resources>
